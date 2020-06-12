@@ -6,33 +6,34 @@ int main(void) {
     float fahrenheit = 32.00;
     float celcius;
 
-    celcius = (fahrenheit - 32) * (5/9);
+    // Inicia la impresion de tabla de una manera muy poco eficiente
+    celcius = (fahrenheit - 32) * (5.00/9.00);
     printf("%f grados Fahrenheit = %f grados Celcius\n",fahrenheit,celcius);
-    fahrenheit = fahrenheit+1.00;
-    celcius = (fahrenheit - 32) * (5/9);
+    fahrenheit = fahrenheit+5.00;
+    celcius = (fahrenheit - 32) * (5.00/9.00);
     printf("%f grados Fahrenheit = %f grados Celcius\n",fahrenheit,celcius);
-    fahrenheit = fahrenheit+1.00;
-    celcius = (fahrenheit - 32) * (5/9);
+    fahrenheit = fahrenheit+5.00;
+    celcius = (fahrenheit - 32) * (5.00/9.00);
     printf("%f grados Fahrenheit = %f grados Celcius\n",fahrenheit,celcius);
-    fahrenheit = fahrenheit+1.00;
-    celcius = (fahrenheit - 32) * (5/9);
+    fahrenheit = fahrenheit+5.00;
+    celcius = (fahrenheit - 32) * (5.00/9.00);
     printf("%f grados Fahrenheit = %f grados Celcius\n",fahrenheit,celcius);
-    fahrenheit = fahrenheit+1.00;
-    celcius = (fahrenheit - 32) * (5/9);
+    fahrenheit = fahrenheit+5.00;
+    celcius = (fahrenheit - 32) * (5.00/9.00);
     printf("%f grados Fahrenheit = %f grados Celcius\n",fahrenheit,celcius);
-    fahrenheit = fahrenheit+1.00;
-    celcius = (fahrenheit - 32) * (5/9);
+    fahrenheit = fahrenheit+5.00;
+    celcius = (fahrenheit - 32) * (5.00/9.00);
     printf("%f grados Fahrenheit = %f grados Celcius\n",fahrenheit,celcius);
-    fahrenheit = fahrenheit+1.00;
-    celcius = (fahrenheit - 32) * (5/9);
+    fahrenheit = fahrenheit+5.00;
+    celcius = (fahrenheit - 32) * (5.00/9.00);
     printf("%f grados Fahrenheit = %f grados Celcius\n",fahrenheit,celcius);
-    fahrenheit = fahrenheit+1.00;
-    celcius = (fahrenheit - 32) * (5/9);
+    fahrenheit = fahrenheit+5.00;
+    celcius = (fahrenheit - 32) * (5.00/9.00);
     printf("%f grados Fahrenheit = %f grados Celcius\n",fahrenheit,celcius);
-    fahrenheit = fahrenheit+1.00;
-    celcius = (fahrenheit - 32) * (5/9);
+    fahrenheit = fahrenheit+5.00;
+    celcius = (fahrenheit - 32) * (5.00/9.00);
     printf("%f grados Fahrenheit = %f grados Celcius\n",fahrenheit,celcius);
-    fahrenheit = fahrenheit+1.00;
+    fahrenheit = fahrenheit+5.00;
 
     return 0;
 }
