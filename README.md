@@ -4,6 +4,12 @@ Hola
   - [Comentarios, Tipos de datos y Variables](#comentarios-tipos-de-datos-y-variables)
     - [Definicion de conceptos](#definicion-de-conceptos)
     - [Asignacion de ejercicio](#asignacion-de-ejercicio)
+  - [Estructuras de control](#estructuras-de-control)
+    - [Estructuras condicionales](#estructuras-condicionales)
+      - [La estructura if](#la-estructura-if)
+    - [Estructuras ciclicas](#estructuras-ciclicas)
+      - [La estructura while](#la-estructura-while)
+    - [Ejercicios sobre estructuras de control](#ejercicios-sobre-estructuras-de-control)
 
 ---
 
@@ -41,3 +47,23 @@ Hola
 
 ### Asignacion de ejercicio
 Observar la estructura del programa descrito en el archivo ejercicio1.c y comprender la instanciacion de variables de los diferentes tipos asi como la forma en la que se imprimen.
+
+---
+
+## Estructuras de control
+Las estructuras de control son, como su nombre lo dice, estructuras del lenguaje que permiten el control del flujo dentro de un programa, para este fin se han definido 2 tipos:
+
+### Estructuras condicionales
+Las estructuras condicionales permiten al programa tomar decisiones que afectan el flujo, en base a alguna condicion
+#### La estructura if
+La estructura _if_ permite la ejecucion de un bloque de codigo basada en la evaluacion de una condicion.
+Si la evaluacion de la condicion arroja un valor _true_ el bloque de codigo se ejecuta, de otra forma el bloque de codigo dentro de la estructura _if_ es ignorado y el flujo del programa continua.
+
+### Estructuras ciclicas
+Las estructuras ciclicas permiten al programa ejecutar bloques de codigo de forma repetitiva, por medio de una evaluacion regularmente llamada _condicion de parada_.
+#### La estructura while
+La estructura _while_ permite la ejecucion de un bloque de codigo de manera iterativa. Se usa generalmente cuando el numero de iteraciones que se realizara no es conocido o no es importante. Por ejemplo cuando se tiene una lista de objetos sobre la que se desea realizar alguna accion.
+
+### Ejercicios sobre estructuras de control
+
+---
