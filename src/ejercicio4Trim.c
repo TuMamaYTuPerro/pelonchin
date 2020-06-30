@@ -10,3 +10,32 @@
  * Ejemplo de salida:
  * hola como estas?
  */
+#include <stdio.h>
+
+#define SPACE ' '
+
+
+int main(void) {
+    char caracter;
+    char espacioPrevio = 0;
+
+    while ((caracter = getchar()) != EOF) {
+        if (caracter != SPACE) {
+            if (espacioPrevio = SPACE) {
+                putchar(espacioPrevio);
+                espacioPrevio = 0;
+            }
+            putchar(caracter);
+        }
+        
+        if (caracter == SPACE) {
+            espacioPrevio = SPACE;
+        }
+
+
+    }
+
+
+return 0;
+
+}
