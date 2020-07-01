@@ -18,23 +18,30 @@
 int main(void) {
     char caracter;
     char espacioPrevio = 0;
+    // Variable bandera para vigilar la aparicion del a primera palabra en la linea
     int primeraPalabra = 0;
 
     while ((caracter = getchar()) != EOF) {
         if (caracter != SPACE) {
+            // Si hay un espacio previo y ya aparecio la primera palabra en la linea
             if (espacioPrevio == SPACE && primeraPalabra == 1) {
                 putchar(espacioPrevio);
                 espacioPrevio = 0;
             }
             putchar(caracter);
+            // Ya aparecio una palabra
             primeraPalabra = 1;
         }
 
+        // Si el caracter llegado es un espacio y ya llego la primera palabra
         if (caracter == SPACE && primeraPalabra == 1) {
             espacioPrevio = SPACE;
         }
 
+        // Si el caracter llegado es el final de la linea
         if(caracter == LINE_FEED) {
+            // Cambia el valor de la bandera para indicar que 
+            // no han llegado palabras a la siguiente linea de la entrada
             primeraPalabra = 0;
         }
 
