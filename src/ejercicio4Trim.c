@@ -21,7 +21,7 @@ int main(void) {
 
     while ((caracter = getchar()) != EOF) {
         if (caracter != SPACE) {
-            if (espacioPrevio = SPACE) {
+            if (espacioPrevio == SPACE) {
                 putchar(espacioPrevio);
                 espacioPrevio = 0;
             }
