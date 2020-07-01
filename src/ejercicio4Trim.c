@@ -13,29 +13,32 @@
 #include <stdio.h>
 
 #define SPACE ' '
-
+#define LINE_FEED '\n'
 
 int main(void) {
     char caracter;
     char espacioPrevio = 0;
+    int primeraPalabra = 0;
 
     while ((caracter = getchar()) != EOF) {
         if (caracter != SPACE) {
-            if (espacioPrevio == SPACE) {
+            if (espacioPrevio == SPACE && primeraPalabra == 1) {
                 putchar(espacioPrevio);
                 espacioPrevio = 0;
             }
             putchar(caracter);
+            primeraPalabra = 1;
         }
-        
-        if (caracter == SPACE) {
+
+        if (caracter == SPACE && primeraPalabra == 1) {
             espacioPrevio = SPACE;
         }
 
+        if(caracter == LINE_FEED) {
+            primeraPalabra = 0;
+        }
 
     }
 
-
-return 0;
-
+    return 0;
 }
